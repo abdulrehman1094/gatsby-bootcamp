@@ -1,0 +1,49 @@
+.header {
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    color: #000000;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: #999999;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #666666;
+}
+
+.active-nav-item {
+    color: #333333;
+}
+
+.top-link-1 {
+    background: none;
+    color: #ffffff;
+    border: 2px solid #ff8141;
+    float: right;
+}
+.top-link {
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.2s ease-in-out 0s;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 30px;
+}
